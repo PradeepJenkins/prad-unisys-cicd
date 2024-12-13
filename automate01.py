@@ -19,7 +19,7 @@ my_select.select_by_index(1)
 #my_select.select_by_visible_text("Female")
 #using CSS selector for radio button
 chrome_driver.find_element(By.CSS_SELECTOR, "#inlineRadio2").click()
-time.sleep(3)
+time.sleep(4)
 #submit_button = chrome_driver.find_element(By.XPATH, "//input[@class='btn-success' and @type='submit' and @value='Submit']")
 #submit_button = chrome_driver.find_element(By.CLASS_NAME, "btn-success")
 #submit_button = chrome_driver.find_element(By.CSS_SELECTOR, "btn-success[type='submit'][value='Submit']")
