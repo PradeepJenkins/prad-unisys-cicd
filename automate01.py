@@ -29,6 +29,8 @@ chrome_driver.find_element(By.XPATH, "//input[@type='submit']").click()
 time.sleep(3)
 #find the success data
 message = success_msg = chrome_driver.find_element(By.CLASS_NAME, "alert-success").text
+time.sleep(5)
+
 #printing message
 print(message)
 #message validation using assertion in python
