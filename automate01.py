@@ -30,7 +30,7 @@ time.sleep(3)
 #find the success data
 message = success_msg = chrome_driver.find_element(By.CLASS_NAME, "alert-success").text
 time.sleep(5)
-time.sleep(7)
+time.sleep(5)
 
 #printing message
 print(message)
